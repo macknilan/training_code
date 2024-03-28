@@ -17,6 +17,3 @@ if __name__ == "__main__":
     res = square_sum(list_numbers)
     print(res)
 
-
-
-
