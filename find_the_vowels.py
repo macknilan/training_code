@@ -8,7 +8,7 @@ def vowel_indices(word):
     list_vowels = "aeiou"
 
     resp_list = [
-        idnex for idnex, char in enumerate(word.lower(), 1) if char in list_vowels
+        index for index, char in enumerate(word.lower(), 1) if char in list_vowels
     ]
 
     return resp_list
